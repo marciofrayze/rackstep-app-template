@@ -9,14 +9,14 @@ as the starting point to your own app.
 This example app was developed and tested with Ruby 2.4.1. The only hard
 dependency is RackStep and Rack itself, but there are a few others recommended gem
 dependancies:
-- unicorn: fast rack-compatible server that can be used for production.
+- Puma: fast rack-compatible server that can be used for production.
 - simplecov: a simple way to generate statistics about you unit tests coverage.
 
 
 ## How to
 
 To run the app, just start a rack compatible server like rackup, shotgun or
-unicorn. This app is ready to be deployed at Heroku.com.
+puma. This app is ready to be deployed at Heroku.com.
 
 
 ## Author
