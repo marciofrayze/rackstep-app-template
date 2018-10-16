@@ -11,7 +11,7 @@ as the starting point to your own app.
 
 ## Dependancies
 
-This example app was developed and tested with Ruby 2.5.0. The only hard
+This example app was developed and tested with Ruby 2.5.1. The only hard
 dependency is RackStep and Rack itself, but there are a few others recommended gem
 dependancies:
 - Puma: fast rack-compatible server that can be used for production.
