@@ -15,9 +15,7 @@ class InvalidRoutesTest < MiniTest::Test
 
   # Test if the invalid route is returning 404.
   def test_invalid_route
-    # Requesting an invalid page.
     request = @requester.get('/justAnInvalidPageRoute')
-    # The response should be NOT FOUND (404)
     assert_equal 404, request.status
   end
 
