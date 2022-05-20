@@ -5,8 +5,6 @@ as the starting point to your own app.
 
 ## Status
 
-[![Gemnasium](https://gemnasium.com/mfdavid/rackstep-app-template.svg)](https://gemnasium.com/mfdavid/rackstep-app-template)
-
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/marciofrayze/rackstep/blob/master/LICENSE)
 
 ## Dependancies
