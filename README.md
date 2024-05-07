@@ -17,8 +17,11 @@ dependancies:
 
 ## How to
 
-To run the app, just start a rack compatible server like rackup, shotgun or
-puma. This app is ready to be deployed at Heroku.com.
+To run the app, just start a rack compatible server like [rackup](https://github.com/rack/rackup) or [puma](https://github.com/puma/puma).
+
+Just run `bundle install` to download the dependencies and then `bundle exec rackup` to start the server.
+
+This app is ready to be deployed at Heroku.com.
 
 ## Author
 
