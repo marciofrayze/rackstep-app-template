@@ -3,7 +3,7 @@
 
 require 'test_helper'
 
-class InvalidRoutesTest < MiniTest::Test
+class InvalidRoutesTest < Minitest::Test
 
   # Including rack test methods to allow use of assert_*.
   include Rack::Test::Methods
