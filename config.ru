@@ -1,9 +1,7 @@
 # This file is used by any rack-compatible server and gives instructions on how
 # to start the server and load the application.
 
-# Loading RackStep
 require 'rackstep'
-# Loading the application
 require_relative './app/app'
 
 # Configuring Rack to serve static files (html, javascripts, images, etc).
@@ -15,7 +13,6 @@ use Rack::Static,
   :root => 'app/public/'
 
 # Using GZIP on all requests.
-# TODO: Check if requests to images and binary files are also being compressed and avoid it.
 use Rack::Deflater
 
 # TODO: Include basic Rack Attack configuration.
